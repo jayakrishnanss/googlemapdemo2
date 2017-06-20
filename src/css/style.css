@@ -1,0 +1,47 @@
+#map-canvas {
+    width: 90%;
+    height: 800px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.button-div {
+    margin-left: 5%;
+}
+
+.floating-panel {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}
+.rev{
+   left: 62%; 
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+    left: 553px !important;
+    top: 20px !important;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
